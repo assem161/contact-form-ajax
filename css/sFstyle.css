@@ -1,0 +1,35 @@
+.form-g-w{
+	width: 49%;
+}
+.form-g-w:nth-child(1){
+	float: left;
+}
+.form-g-w:nth-child(2){
+	float: right;
+}
+.Myform input{
+	width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Myform input[type="submit"]{
+	margin-top: 5px;
+}
+
+@media (max-width: 600px){
+	.form-g-w{
+		width: 100%;
+	}
+}
+
+.sucess{
+	color: green;
+}
+.error{
+	color: red;
+}
